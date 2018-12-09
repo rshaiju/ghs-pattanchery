@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="School Management System">
+        <meta name="author" content="Shaiju Rajan">
+        <title>My School</title>
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="content/main.css">
+    </head>
+    <body>
+        <div id="container-fluid" ng-app="mySchoolApp">
+            <header>
+                <main-menu></main-menu>
+            </header>
+            <section id="main">
+                <ui-view></ui-view>
+            </section>
+            <footer class="w-100 text-center">
+                Powered by 	&copy; Alitasoft
+            </footer>
+        </div>
+            
+        <script src="vendor/jquery/jquery-3.3.1.slim.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.js"></script>
+        <script src="node_modules/angular/angular.min.js"></script>
+        <script src="node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+        <!--Scripts to be cleaned up later-->
+
+        <script src="/app/app.js"></script>
+        <script src="app/common/directives/mainMenu/mainMenu.directive.js"></script>
+        <script src="app/app.routing.js"></script>
+    </body>
+</html>
