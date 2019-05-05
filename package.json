@@ -1,0 +1,19 @@
+{
+  "name": "ghs-pattanchery",
+  "version": "1.0.0",
+  "description": "Pattanchery school site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rshaiju/ghs-pattanchery.git"
+  },
+  "author": "Shaiju Rajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rshaiju/ghs-pattanchery/issues"
+  },
+  "homepage": "https://github.com/rshaiju/ghs-pattanchery#readme"
+}
