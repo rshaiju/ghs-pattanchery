@@ -21,4 +21,9 @@ body {
   .portfolio-item {
     margin-bottom: 30px;
   }
+
+  .navbar-light .navbar-nav .nav-link,.navbar-light .navbar-brand {
+    color: black !important;
+}
+
   
